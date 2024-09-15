@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+:root{
+    --verde:#008000;
+    --amarelo:#FFD700;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: var(--amarelo);
+}
+
+@media(max-width:768px){
+    .apresentacao_m{
+        flex-direction: column;
+    }
+}
+
+ header{
+    clear: both;
+    background: var(--verde);
+    color: white;
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    }
+
+.titulo_m{
+    position: relative;
+    top: 15px;
+    font-family: "Anton", sans-serif;
+}
+
+ .marquinhos{
+    width: 300px;
+    height: 300px;
+    border-radius: 100%;
+    float: left;
+    margin-right: 50px;
+ }
+
+ .apresentacao_m{
+    display: flex;
+    margin-top: 30px;
+ }
+
+ .biografia_m{
+    font-size: 15pt;
+    margin-top: 40px;
+    padding: 20px;
+ }
+
+ .tabela_m{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+ }
+
+ .nav_m{
+    color: var(--verde);
+    font-size: 18pt;
+    position: relative;
+    left: 120px;
+ }
+
+ .pp_pd a{
+    color: white;
+    text-decoration: none;
+    font-size: 15pt;
+    position: relative;
+    bottom: 25px;
+ }
+
+ .pp_pd img{
+    position: relative;
+    right: 10px;
+    margin-left: 20px;
+}
+
+.footer_m{
+    display: flex;
+    justify-content: center;
+}
+
+.footer_m a{
+    color: black;
+    position: relative;
+    bottom: 5px;
+    font-size: 15pt;
+}
+
+.insta_m{
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+}
