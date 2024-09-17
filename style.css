@@ -38,14 +38,14 @@ header{
 
 .h1_tp{
     position: relative;
-    top: 25px;
+    top:15px;
     font-family: "Dela Gothic One", sans-serif;
     letter-spacing: 3px;
     text-shadow:  black 4px 3px 7px;
 }
 
 .footer_p img{
-    clear: both;
+   
     text-align: center;
 }
 
@@ -66,7 +66,7 @@ header{
 .footer_p a{
     position: relative;
     bottom: 5px;
-    font-size: 15pt;
+    font-size: 12pt;
     color: black;
     margin-left: 5px;
 }
@@ -130,6 +130,13 @@ header{
     
     position: relative;
     right: 10px;
+}
+
+.img_audio{
+    position: relative;
+    left: 500px;
+    padding: 20px;
+    bottom: 10px;
 }
 
 

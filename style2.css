@@ -108,3 +108,10 @@ body{
     height: 20px;
     margin-right: 5px;
 }
+
+.img_audio{
+    position: relative;
+    left: 500px;
+    padding: 20px;
+    bottom: 10px;
+}
