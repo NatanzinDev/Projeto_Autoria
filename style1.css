@@ -24,6 +24,17 @@ body{
         flex-direction: column;
     }
 
+    .footer_d{
+        display: flex;
+        flex-direction: column;
+        
+    }
+
+    .img_audio{
+        width: 40px;
+        height: 20px;
+    }
+
     
 }
 
@@ -128,5 +139,8 @@ header{
 }
 
 .img_audio{
-    margin-left: 40px;
+    position: relative;
+    left: 500px;
+    padding: 20px;
+    bottom: 10px;
 }
