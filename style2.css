@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap');
 
+/*Guardar variaveis*/
 :root{
     --verde:#006400;
     --amarelo:#ffcf00;
@@ -11,6 +12,7 @@
     box-sizing: border-box;
 }
 
+/*Fundo da página */
 body{
     background: var(--verde);
 }
@@ -21,6 +23,7 @@ body{
     }
 }
 
+/*Parte do título*/
  header{
     clear: both;
     background: var(--amarelo);
@@ -39,7 +42,7 @@ body{
     font-family: "Dela Gothic One";
     text-shadow:  black 4px 3px 7px;
 }
-
+/*Parte da apresentação*/
  .marquinhos{
     width: 300px;
     height: 300px;
@@ -61,7 +64,7 @@ body{
     margin-top: 40px;
     padding: 20px;
  }
-
+/*Parte da nevegação*/
  .tabela_m{
     display: flex;
     justify-content: center;
@@ -91,7 +94,7 @@ body{
     right: 10px;
     margin-left: 20px;
 }
-
+/*Rodapé*/
 .footer_m{
     display: flex;
     justify-content: center;
