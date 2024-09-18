@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap');
 
+/*Guardar variaveis*/
 :root{
     --verde:#006400;
     --amarelo:#ffcf00;
@@ -11,6 +12,7 @@
     box-sizing: border-box;
 }
 
+/*Fundo da página */
 body{
     background: var(--verde);
     max-width: 100%;
@@ -39,7 +41,7 @@ body{
 }
 
 
-
+/*Parte do título*/
 header{
    
     background: var(--amarelo);
@@ -61,7 +63,7 @@ header{
 }
 
 
-
+/*Parte da apresentação*/
 .img_dao{
     width: 300px;
     height: 300px;
@@ -87,7 +89,7 @@ header{
     color: white;
     text-shadow:  black 2px 3px 7px;
 }
-
+/*Parte da nevegação*/
 .tabela_d{
     width: 100%;
     margin-top: 50px;
@@ -117,7 +119,7 @@ header{
     right: 10px;
     margin-left: 20px;
 }
-
+/*Rodapé*/
 .footer_d{
     width: 100%;
     display: flex;

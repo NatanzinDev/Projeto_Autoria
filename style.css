@@ -1,7 +1,8 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap');
+/*Importar fonte*/
 
-
+/*Guardar variaveis*/
 :root{
     --verde:#008000;
     --amarelo: #ffcf00;
@@ -16,7 +17,7 @@
 
 
 
-
+/*Fundo da página principal*/
 .body_principal{
     background-color: #006400;
    
@@ -25,7 +26,7 @@
 
 
 
-
+/*Parte do título*/
 header{
     clear: both;
     background: var(--amarelo);
@@ -43,7 +44,7 @@ header{
     letter-spacing: 3px;
     text-shadow:  black 4px 3px 7px;
 }
-
+/*Rodapé*/
 .footer_p img{
    
     text-align: center;
@@ -71,7 +72,7 @@ header{
     margin-left: 5px;
 }
 
-
+/*Parte da apresentação*/
 .div_img{
     margin-top: 30px;
     width: 100%;
@@ -96,6 +97,7 @@ header{
     text-shadow:  black 2px 3px 7px;
 }
 
+/*Parte da nevegação*/
 .tabela{
     margin-top: 50px;
     margin-bottom: 50px;
