@@ -36,7 +36,8 @@ body{
 .titulo_m{
     position: relative;
     top: 15px;
-    font-family: "Anton", sans-serif;
+    font-family: "Dela Gothic One";
+    text-shadow:  black 4px 3px 7px;
 }
 
  .marquinhos{
@@ -99,12 +100,19 @@ body{
 .footer_m a{
     color: black;
     position: relative;
-    bottom: 5px;
-    font-size: 15pt;
+    bottom: 0px;
+    font-size: 12pt;
 }
 
 .insta_m{
     width: 20px;
     height: 20px;
     margin-right: 5px;
+}
+
+.img_audio{
+    position: relative;
+    left: 500px;
+    padding: 20px;
+    bottom: 10px;
 }

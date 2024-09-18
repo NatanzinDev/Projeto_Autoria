@@ -44,7 +44,7 @@
        </table>
     </div>
 
-   <audio src="midia/musica.mp3" preload="metadata" autoplay loop></audio>
+   <audio src="midia/musica.mp3" preload="metadata" autoplay loop class="musica"></audio>
 
     <footer class="footer_p">   
             
@@ -53,7 +53,25 @@
             <li><img src="midia/instagram.png" alt="Instagram" class="insta2"><a href="https://www.instagram.com/marquinhosagricultor?igsh=MnJrcW9tajA5cWo0" target="_blank">Instagram de Marquinhos</a></img></li>
         </ul>
 
+        <img src="midia/audio.png" alt="" class="img_audio" onclick="audio()">
+
     </footer>
-     
+     <script>
+        var aux = 2
+        function audio(){
+            var x = document.querySelector('.musica')
+            var img = document.querySelector('.img_audio')
+            
+             if(aux == 1){
+                x.play();
+                img.src = "midia/audio.png" 
+                aux = 2
+             }else if(aux == 2){
+                x.pause();
+                img.src = "midia/mute.png"
+                aux = 1
+             }
+        }
+     </script>
 </body>
 </html>
