@@ -36,7 +36,8 @@ body{
 .titulo_m{
     position: relative;
     top: 15px;
-    font-family: "Anton", sans-serif;
+    font-family: "Dela Gothic One";
+    text-shadow:  black 4px 3px 7px;
 }
 
  .marquinhos{
