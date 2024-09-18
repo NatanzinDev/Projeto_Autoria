@@ -100,8 +100,8 @@ body{
 .footer_m a{
     color: black;
     position: relative;
-    bottom: 5px;
-    font-size: 15pt;
+    bottom: 0px;
+    font-size: 12pt;
 }
 
 .insta_m{

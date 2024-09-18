@@ -127,8 +127,8 @@ header{
 .footer_d a{
     color: black;
     position: relative;
-    bottom: 5px;
-    font-size: 15pt;
+    top: 0px;
+    font-size: 12pt;
     
 }
 
